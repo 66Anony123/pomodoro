@@ -1,0 +1,100 @@
+body{
+    background-color : red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.timer-content{
+
+
+    width : 30%;
+    margin :auto;
+ 
+}
+.header-title
+{
+    color :white;
+    font-size : 20;
+    font-weight : bold;
+   
+}
+header{
+    
+   padding-top: 10px; 
+   padding-bottom: 10px;
+   border-bottom : 8px solid;
+border-color : rgba(0, 0, 0,0.3);
+}
+
+.timer-container{
+          background-color: rgba(255, 255, 255, 0.3);
+ padding : 15px;
+ margin-top: 20px;
+ width : 80%;
+ margin : 20px auto;
+ border-radius : 8px;
+}
+
+
+.tab-item
+{
+    cursor:pointer;
+    display :inline-block;
+    font-size : 20px;
+color : white;
+margin : 0px 10px;
+
+}
+
+.tab-item:hover
+{
+box-shadow: 10px 20px 30px blue;
+background-color: black;
+}
+.tab-item.active
+{
+    display :inline-block;
+    background-color: green;
+    
+}
+
+.tab-item-content{
+    display :none;
+   
+}
+.tab-item-content.active
+{
+    display: block;
+    font-size: 60px;
+    background-color: brown;
+    width : 50%;
+    margin : 22px 2px ; 
+  
+}
+.time{
+padding-top: 55px;
+padding-bottom: 65px;
+;
+}
+
+button{
+    padding : 10px 35px;    
+margin-bottom : 10px;
+font-size:18px;
+color :red;
+cursor :crosshair;
+}
+button:hover
+{
+box-shadow: 10px 20px 30px blue;
+background-color: black;
+}
+#rnd-text
+{
+    display: flex;
+    background-color: saddlebrown;
+    color : white;
+    font-size: medium;
+    margin : 0% 30%;
+    -ms-flex-item-align: center;
+padding : 20px;
+}

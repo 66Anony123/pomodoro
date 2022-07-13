@@ -1,0 +1,18 @@
+.container
+{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+align-items: center;  
+border: 2px solid black;
+height : 20cm;
+flex-wrap: wrap-reverse;
+}
+.diklist
+{
+    color : red;
+    margin: 22px;
+    height : 90px;
+    width : 90px;
+padding: 22px;;
+    background-color: black;
+}
